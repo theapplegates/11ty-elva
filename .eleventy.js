@@ -1,7 +1,7 @@
 // @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig 
 
 // Imports --------------------------------------------
-
+import pluginWebc from "@11ty/eleventy-plugin-webc";
 import { EleventyI18nPlugin, EleventyHtmlBasePlugin, EleventyRenderPlugin } from '@11ty/eleventy';
 import fs from 'fs';
 import markdownIt from 'markdown-it';
@@ -51,6 +51,7 @@ const locales = require('./content/_data/locales.json');1
 // 11ty -----------------------------------------------
 
 export default async function(eleventyConfig) {
+    eleventyConfig.addPlugin(pluginWebc);
 
     // Global Settings --------------------------------
 

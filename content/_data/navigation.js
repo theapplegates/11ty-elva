@@ -1,11 +1,15 @@
 export default {
     en: [
 		{
+			text: 'Search',
+			url: '/search/'
+		},
+		{
 			text: 'About',
 			url: '/about/'
 		},
 		{
-			text: 'Documentation',
+			text: 'Blog',
 			url: '/'
 		},
 		{
