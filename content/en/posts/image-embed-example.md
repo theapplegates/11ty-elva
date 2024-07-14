@@ -7,6 +7,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed risus conse
 
 {% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
 
+{% image "/assets/img/mitch-botsford-2.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
+
 ``` njk
 {% raw %}{% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}{% endraw %}
 ```
