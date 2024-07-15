@@ -12,7 +12,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-base);
-    font-size: var(--step-0);
+    font-size: var(--size-step-min-1);
     line-height: 1.4;
     letter-spacing: var(--tracking);
     transition: background var(--transition-base), color var(--transition-base);
@@ -102,11 +102,11 @@ h3 {
 }
 
 h1 {
-    font-size: var(--step-4);
+    font-size: var(--step-3);
 }
 
 h2 {
-    font-size: var(--step-3);
+    font-size: var(--step-2);
 }
 
 h3 {
@@ -180,7 +180,7 @@ figure > figcaption {
     padding: var(--space-3xs) var(--space-xs);
     box-shadow: 0px 4px color-mix(in srgb, var(--foreground), var(--black) 9%);
     border-radius: var(--border-radius);
-    font-size: var(--step--1);
+    font-size: var(--size-step-min-2);
 }
 
 figure > figcaption::selection {
@@ -488,3 +488,75 @@ a[aria-current="page"] {
     font-size: var(--step--1);
     display: block;
 }
+/* roboto-flex-regular - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Roboto Flex';
+      font-style: normal;
+      font-weight: 400;
+      src: url('/content/assets/fonts/RobotoFlex/roboto-flex-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+/* open-sans-300 - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    
+    
+    
+    /* open-sans-300italic - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-weight: 300;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    
+    
+    
+    /* open-sans-regular - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    
+    
+    
+    /* open-sans-italic - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-weight: 400;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    
+    
+    
+    /* open-sans-700 - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+    
+    
+    
+    /* open-sans-700italic - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-weight: 700;
+      src: url('/content/assets/fonts/OpenSans/open-sans-v40-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
