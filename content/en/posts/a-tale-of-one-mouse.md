@@ -8,6 +8,10 @@ On December 31, 2017, my wife and I adopted two blind cats. Brothers. We got bot
 
 {% image "/assets/img/7years_takes_a_toll.jpg", "A 7 year old mouse", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
 
+{% image "/assets/img/no-motorcycle.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
+
+
+
 <img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/G400_s8qwhk.jpg" class="cld-responsive">
 
 

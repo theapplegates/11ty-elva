@@ -1,6 +1,8 @@
 // @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig 
 
 // Imports --------------------------------------------
+import { eleventyImagePlugin } from "@11ty/eleventy-img";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import { EleventyI18nPlugin, EleventyHtmlBasePlugin, EleventyRenderPlugin } from '@11ty/eleventy';
 import fs from 'fs';
@@ -46,11 +48,24 @@ import where from './elva/filters/where.js';
 // to-do: This is a temp fix based on this bug: https://github.com/11ty/eleventy-dependency-tree-esm/issues/2
 import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
-const locales = require('./content/_data/locales.json');1
+const locales = require('./content/_data/locales.json');
+
+// Function to handle missing images
+function handleMissingImages(err, src) {
+    console.error(`Image not found: ${src}. Please check the path.`);
+    return {
+        src,
+        format: 'jpeg',
+        width: 500,
+        height: 500,
+        url: '/assets/img/placeholder.jpg' // You can provide a placeholder image path here
+    };
+}
 
 // 11ty -----------------------------------------------
 
-export default async function(eleventyConfig) {
+export default function(eleventyConfig) {
+ 
     eleventyConfig.addPlugin(pluginWebc);
 
     // Global Settings --------------------------------
@@ -65,7 +80,7 @@ export default async function(eleventyConfig) {
     // Watch Targets ----------------------------------
 
     eleventyConfig.addWatchTarget('./content/assets');
-    eleventyConfig.addWatchTarget('./theme/**/*.{css,js}')
+    eleventyConfig.addWatchTarget('./theme/**/*.{css,js}');
 
     // Layouts ----------------------------------------
 
@@ -98,10 +113,10 @@ export default async function(eleventyConfig) {
         eleventyConfig.addTemplate(key + '-feed.json.njk', feedJSONTemplate, { lang: key });
         eleventyConfig.addTemplate(key + '-manifest.njk', manifestTemplate, { lang: key });
     }
-    
+
     // Plugins ----------------------------------------
 
-    await eleventyConfig.addPlugin(pluginRSS);
+    eleventyConfig.addPlugin(pluginRSS);
     eleventyConfig.addPlugin(pluginDrafts);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(EleventyRenderPlugin);
@@ -137,9 +152,9 @@ export default async function(eleventyConfig) {
 
     // Passthrough -------------------------------------
 
-    eleventyConfig.addPassthroughCopy({'./content/assets/files': './assets/files'})
-    eleventyConfig.addPassthroughCopy({'./content/assets/img': './assets/img'})
-    eleventyConfig.addPassthroughCopy({'./theme/fonts': './assets/fonts'})
+    eleventyConfig.addPassthroughCopy({'./content/assets/files': './assets/files'});
+    eleventyConfig.addPassthroughCopy({'./content/assets/img': './assets/img'});
+    eleventyConfig.addPassthroughCopy({'./theme/fonts': './assets/fonts'});
 
     // Markdown ----------------------------------------
 
@@ -162,7 +177,7 @@ export default async function(eleventyConfig) {
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
-    
+
         // If your site deploys to a subdirectory, change `pathPrefix`
         pathPrefix: '/',
 
@@ -173,5 +188,5 @@ export default async function(eleventyConfig) {
             includes: '../theme/_includes',
             layouts: '../theme/_layouts'
         }
-    }
+    };
 }
