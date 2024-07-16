@@ -60,6 +60,7 @@
   "dependencies": {
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "markdown-it": "^14.1.0",
+    "nunjucks": "^3.2.4",
     "sharp": "^0.33.4"
   }
 }
