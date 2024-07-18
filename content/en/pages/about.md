@@ -33,9 +33,11 @@ Features include:
 * Discourage [AI bots](https://github.com/ai-robots-txt/ai.robots.txt/)
 
 ### Other things
-![Test](
+![Test-1](/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg)
 
 {% image "/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg", "Screenshot of elva in VSCodium and the browser", "100vw", "elva uses Front Matter CMS for easy content management", "rounded", "lazy", "auto", "async", "2400", "1688" %}
+
+![crazy](/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg)
 
 
 * [Front Matter CMS](https://frontmatter.codes/)
