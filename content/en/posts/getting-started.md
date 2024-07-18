@@ -3,6 +3,9 @@ title: Getting started
 date: 2023-08-06
 ---
 
+![nature](/assets/img/liana-s.jpg)
+
+
 Make a directory and navigate to it:
 
 ``` bash
