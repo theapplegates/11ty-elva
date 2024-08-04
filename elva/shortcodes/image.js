@@ -5,7 +5,7 @@ export default async function(src, alt, sizes, caption = '', classes = '', loadi
     let meta = {};
     let metadata = {
         // set your required image sizes here
-        widths: [150, 300, 600, 800, 1024, 1200, 2400, 'auto'],
+        widths: [150, 300, 600, 800, 1024, 1200, 1600, 2400, 'auto'],
         urlPath: '/assets/img/',
         outputDir: './dist/assets/img/',
         sharpWebpOptions: {
