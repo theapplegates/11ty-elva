@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy && npx -y pagefind --site dist",
     "dev": "eleventy --serve --watch --incremental",
     "clean": "rimraf dist",
     "debug": "DEBUG=Eleventy* npm run dev",
