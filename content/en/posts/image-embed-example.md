@@ -1,8 +1,8 @@
 ---
 title: Image embed example
-date: 2023-08-03
+date: 2024-08-17
 ---
-
+<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_auto,q_auto,c_fill/c_scale,w_auto:breakpoints_200_1920_30_15/shiebi-frog_vn6km9.jxl" sizes="100vw" />
 
 <img 
 data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_jxl,q_auto/shiebi-frog_vn6km9.jxl" 
