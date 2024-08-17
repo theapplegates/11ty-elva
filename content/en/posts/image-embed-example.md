@@ -3,6 +3,20 @@ title: Image embed example
 date: 2023-08-03
 ---
 
+
+<img 
+data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_jxl,q_auto/shiebi-frog_vn6km9.jxl" 
+class="cld-responsive">
+
+
+{% image "/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg", "An off road SUV", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
+
+
+
+
+
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed risus consectetur, gravida justo ac, convallis leo. Duis et nisi ullamcorper, auctor quam vel, sollicitudin ligula. Vestibulum faucibus metus nec diam egestas, sed auctor elit rhoncus. Duis a velit vel lacus placerat porta ac vitae urna. Etiam a dictum tortor, id venenatis eros. Donec vehicula ex ut quam porta auctor. Suspendisse at purus enim. Donec sed pharetra nisl.
 
 {% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
