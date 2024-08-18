@@ -5,7 +5,7 @@ date: 2023-08-06
 
 ![nature](/assets/img/liana-s.jpg)
 
-![A Rolex](https://applegate-paul.mo.cloudinary.net/zoom/m126067-0001_2310pf_001.jpg)
+![A Rolex](https://applegate-paul.mo.cloudinary.net/zoom/m126067-0001_2310pf_001.jxl)
 
 Make a directory and navigate to it:
 
