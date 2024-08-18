@@ -5,7 +5,7 @@ date: 2023-08-06
 
 ![nature](/assets/img/liana-s.jpg)
 
-<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_auto,q_auto/kateryna-hliznitsovaStreet_okzmrl.jpg" alt="an alley" class="cld-responsive">
+![A Rolex](https://applegate-paul.mo.cloudinary.net/zoom/m126067-0001_2310pf_001.jpg)
 
 Make a directory and navigate to it:
 
