@@ -1,6 +1,6 @@
 ---
 title: Getting started
-date: 2023-08-06
+date: 2024-08-18
 ---
 
 ![nature](/assets/img/liana-s.jpg)
