@@ -10,7 +10,8 @@ On December 31, 2017, my wife and I adopted two blind cats. Brothers. We got bot
 
 <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_avif,q_auto/w_auto:breakpoints_200_1920_30_15/Dad-kevin-meApril-10-2010_v29ucr.jpg" alt="Family">
 
-<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,c_fill/c_scale,w_auto:breakpoints_200_1920_30_15/shiebi-frog_vn6km9.jxl" sizes="50vw" alt="Family" />
+<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,c_fill/c_scale,w_auto:breakpoints_200_1920_30_15/hillshire-farm_ke7e8u.jxl" sizes="50vw" alt="A sammy" />
+
 
 <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/w_1000/DaPlane-2_ijuyi1.jpg" srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_50/DaPlane-2_ijuyi1.jpg 50w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_390/DaPlane-2_ijuyi1.jpg 390w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_600/DaPlane-2_ijuyi1.jpg 600w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_724/DaPlane-2_ijuyi1.jpg 724w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_938/DaPlane-2_ijuyi1.jpg 938w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_998/DaPlane-2_ijuyi1.jpg 998w, https://res.cloudinary.com/paulapplegate-com/image/upload/w_1000/DaPlane-2_ijuyi1.jpg 1000w" sizes="(max-width: 1000px) 100vw, 1000px" alt="A landing plane">
 
