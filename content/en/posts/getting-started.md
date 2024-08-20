@@ -5,6 +5,9 @@ date: 2024-08-18
 
 ![nature](/assets/img/liana-s.jpg)
 
+
+![A family friend](https://applegate-paul.mo.cloudinary.net/zoom/luke-miller-FUzzFCmJkwk-unsplash.jxl)
+
 <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_jxl,q_auto/w_auto:breakpoints_200_1920_30_15/mark-boss-Hw84F_XCxpw-unsplash_l9cisi.jxl" alt="A clock in London :)" class="cld-responsive">
 
 Make a directory and navigate to it:
