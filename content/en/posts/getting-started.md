@@ -8,7 +8,6 @@ date: 2024-08-18
 
 ![A family friend](https://applegate-paul.mo.cloudinary.net/zoom/luke-miller-FUzzFCmJkwk-unsplash.jxl)
 
-<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_jxl,q_auto/w_auto:breakpoints_200_1920_30_15/mark-boss-Hw84F_XCxpw-unsplash_l9cisi.jxl" alt="A clock in London :)" class="cld-responsive">
 
 Make a directory and navigate to it:
 
@@ -46,6 +45,3 @@ You can set the environment variable `NODE_ENV=production` in your hosting contr
 To use [Front Matter CMS](https://frontmatter.codes/), install [VSCodium](https://vscodium.com/) or [Visual Studio Code](https://code.visualstudio.com/) and enable the extension (if it doesn't enable automatically). It will open each time you launch your project.
 
 
-<img data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_jxl,q_auto/florian-hahn-Il-H7ViFzNY-unsplash_qbm49p.jxl" class="cld-responsive">
-
-<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,q_auto,c_fill/c_scale,w_auto:breakpoints_200_1920_30_15/florian-hahn-Il-H7ViFzNY-unsplash_qbm49p.jxl" alt="pic" sizes="100vw" />

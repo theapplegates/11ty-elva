@@ -2,61 +2,12 @@
 title: Image embed example
 date: 2024-08-17
 ---
-<picture><source type="image/jxl" srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 50w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_546/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 546w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_897/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 897w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 1000w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 2148w" sizes="(max-width: 50px) 50px,(max-width: 546px) 546px,(max-width: 897px) 897px,(max-width: 1000px) 1000px,(max-width: 2148px) 2148px, 100vw"><source type="image/avif" srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 50w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_546/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 546w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_897/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 897w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 1000w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 2148w" sizes="(max-width: 50px) 50px,(max-width: 546px) 546px,(max-width: 897px) 897px,(max-width: 1000px) 1000px,(max-width: 2148px) 2148px, 100vw"><source type="image/jpeg" srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 50w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_546/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 546w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_897/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 897w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 1000w,https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl 2148w" sizes="(max-width: 50px) 50px,(max-width: 546px) 546px,(max-width: 897px) 897px,(max-width: 1000px) 1000px,(max-width: 2148px) 2148px, 100vw"><img src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/tony-litvyak-kruDTW3l0vY-unsplash_dbvtyq.jxl" alt="a duck"></picture>
-
-<picture>
-	<source
-	  type="image/jxl"
-	  srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/shiebi-frog_vn6km9.jxl 50w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_799/f_jxl/shiebi-frog_vn6km9.jxl 799w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/shiebi-frog_vn6km9.jxl 1000w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/shiebi-frog_vn6km9.jxl 2148w"
-	  sizes="(max-width: 50px) 50px,
-  (max-width: 799px) 799px,
-  (max-width: 1000px) 1000px,
-  (max-width: 2148px) 2148px, 100vw"
-	>
-	<source
-	  type="image/avif"
-	  srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/shiebi-frog_vn6km9.jxl 50w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_799/f_jxl/shiebi-frog_vn6km9.jxl 799w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/shiebi-frog_vn6km9.jxl 1000w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/shiebi-frog_vn6km9.jxl 2148w"
-	  sizes="(max-width: 50px) 50px,
-  (max-width: 799px) 799px,
-  (max-width: 1000px) 1000px,
-  (max-width: 2148px) 2148px, 100vw"
-	>
-	<source
-	  type="image/jpeg"
-	  srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/shiebi-frog_vn6km9.jxl 50w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_799/f_jxl/shiebi-frog_vn6km9.jxl 799w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_1000/f_jxl/shiebi-frog_vn6km9.jxl 1000w,
-  https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_2148/f_jxl/shiebi-frog_vn6km9.jxl 2148w"
-	  sizes="(max-width: 50px) 50px,
-  (max-width: 799px) 799px,
-  (max-width: 1000px) 1000px,
-  (max-width: 2148px) 2148px, 100vw"
-	>
-	<img
-	  src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_50/f_jxl/shiebi-frog_vn6km9.jxl"
-	  alt="A frog."
-	/>
-  </picture>
-<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_auto,q_auto,c_fill/c_scale,w_auto:breakpoints_200_1920_30_15/shiebi-frog_vn6km9.jxl" sizes="100vw" />
-
 <img 
 data-src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit,w_auto/dpr_auto,f_jxl,q_auto/shiebi-frog_vn6km9.jxl" 
 class="cld-responsive">
 
 
 {% image "/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg", "An off road SUV", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
-
-
-
-
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed risus consectetur, gravida justo ac, convallis leo. Duis et nisi ullamcorper, auctor quam vel, sollicitudin ligula. Vestibulum faucibus metus nec diam egestas, sed auctor elit rhoncus. Duis a velit vel lacus placerat porta ac vitae urna. Etiam a dictum tortor, id venenatis eros. Donec vehicula ex ut quam porta auctor. Suspendisse at purus enim. Donec sed pharetra nisl.
 
@@ -67,10 +18,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed risus conse
 ``` njk
 {% raw %}{% image "/assets/img/en.jpg", "Yellow rapeseed flowers bloom against a clear blue sky", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}{% endraw %}
 ```
-
-{% image "/assets/img/bruno-van-der-kraan-2I0dlQxrdrg-unsplash.jpg", "An off road SUV", "100vw", "", "rounded", "lazy", "auto", "async", "2400", "1600" %}
-
-
 Nulla vehicula condimentum neque quis tincidunt. Phasellus a dignissim urna. In vitae pulvinar orci, et feugiat orci. Morbi sit amet velit sit amet ex tincidunt vestibulum. Ut eros sem, aliquet quis ultrices vestibulum, lobortis eu quam. Aenean nec urna suscipit, iaculis ipsum sit amet, vestibulum orci. Phasellus feugiat eu dolor quis efficitur. Aenean non luctus diam. Aenean egestas lectus est. In sagittis tellus placerat tincidunt semper. Nullam mattis nisi massa, vel venenatis turpis suscipit ac. Maecenas maximus consequat ligula, placerat sodales ipsum commodo a.
 
 Aenean ullamcorper egestas libero, non consequat enim mollis et. Aliquam ut lectus ac ligula tempus molestie. Donec cursus, libero cursus efficitur aliquam, eros purus porta purus, et scelerisque est erat et odio. Mauris bibendum ex ipsum, vulputate ultricies lacus tempus ac. Sed quis leo risus. Cras varius porttitor nibh vel accumsan. In efficitur sapien vitae felis porta, eu vestibulum felis pretium. Nulla nibh odio, dignissim vel dapibus a, feugiat in felis. Morbi convallis malesuada dui, quis iaculis nibh consectetur id. Vivamus tempus porttitor fermentum. Phasellus luctus nibh orci, et dignissim libero dapibus sit amet. Duis enim urna, viverra in condimentum sed, finibus eget nisl. Donec at mollis nunc. Duis vel felis metus. Etiam fermentum nec elit id sodales. 
