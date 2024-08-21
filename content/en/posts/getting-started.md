@@ -6,7 +6,7 @@ date: 2024-08-18
 ![nature](/assets/img/liana-s.jpg)
 
 
-![A family friend](https://applegate-paul.mo.cloudinary.net/zoom/luke-miller-FUzzFCmJkwk-unsplash.jxl)
+!The moon](https://applegate-paul.mo.cloudinary.net/zoom/luke-miller-FUzzFCmJkwk-unsplash.jxl)
 
 
 Make a directory and navigate to it:
